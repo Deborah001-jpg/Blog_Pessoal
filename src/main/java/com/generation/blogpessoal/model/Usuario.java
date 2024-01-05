@@ -47,7 +47,6 @@ public class Usuario {
 	private List<Postagem> postagem;
 
 	public Usuario(Long id, String nome, String usuario, String senha, String foto) { 
-		
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -57,6 +56,9 @@ public class Usuario {
 		
 	}
 
+	public Usuario() { }
+	
+	
 	public Long getId() {
 		return id;
 	}
